@@ -40,7 +40,7 @@ void loop()
   {
     digitalWrite(LED, HIGH);
     Serial.print(networks);
-    Serial.println("Networks found!");
+    Serial.println(" networks found!");
 
     for (int i=0; i < networks; i++)
     {
